@@ -6,7 +6,7 @@ model = pickle.load(open('estimasi_motor.sav', 'rb'))
 st.title('Estimasi Harga Motor di India')
 
 kms_driven = st.number_input('Input Jarak Tempuh Motor')
-age = st.number_input('Input Tahun Motor')
+age = st.number_input('Input Umur Motor')
 power = st.number_input('Input Cc Motor')
 
 prediksi = ''
